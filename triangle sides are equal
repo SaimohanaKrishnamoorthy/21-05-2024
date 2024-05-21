@@ -1,0 +1,7 @@
+len1,len2,br1,br2=int(input()),int(input()),int(input()),int(input())
+if len1==len2 and br1==br2:
+    print("Yes")
+elif len1==br1 and len2==br2:
+    print("Yes")
+else:
+    print("No")
