@@ -1,0 +1,7 @@
+n = int(input("Enter the number of terms: "))
+fibonacci = [0, 1]
+for _ in range(2, n):
+    fibonacci.append(fibonacci[-1] + fibonacci[-2])
+print("Reverse Fibonacci series:")
+for i in range(n - 1, -1, -1):
+    print(fibonacci[i], end=" ")
