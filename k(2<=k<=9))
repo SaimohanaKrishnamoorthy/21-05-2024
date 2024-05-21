@@ -1,0 +1,11 @@
+n = int(input("Enter the value of n: "))
+k = int(input("Enter the value of k (2<=k<=9): "))
+count = 0
+num = 1
+while True:
+    if str(k) in str(num) or num % k == 0:
+        count += 1
+        if count == n:
+            print("The", n, "th number that contains the digit", k, "or is divisible by", k, "is:", num)
+            break
+    num += 1
