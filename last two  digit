@@ -1,0 +1,6 @@
+a=int(input())
+if a>100:
+    b=a%100
+    print(b)
+else:
+    print("The number should be greater than two digits")
