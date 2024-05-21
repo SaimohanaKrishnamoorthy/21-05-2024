@@ -1,0 +1,4 @@
+while True:
+    num=int(input())
+    print("The double of ",num,"is",2*num)
+    
