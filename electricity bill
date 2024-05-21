@@ -1,0 +1,18 @@
+unit = int(input())
+if unit<=199:
+    t=unit*1.20
+    print(t)
+elif unit>=200 and unit<400:
+    t=unit*1.50
+    print(t)
+elif unit>=400 and unit<600:
+    t=unit*1.80
+    print(t)
+else:
+    t=unit*2.00
+    print(t)
+if t>400:
+    t+=t*0.15
+if t<100:
+    t=100
+    print(t)
