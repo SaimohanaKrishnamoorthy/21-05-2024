@@ -1,0 +1,13 @@
+n = int(input("Enter the number of elements: "))
+positive_count = 0
+negative_count = 0
+count = 0
+while count < n:
+    num = float(input("Enter number {}: ".format(count + 1)))
+    if num > 0:
+        positive_count += 1
+    elif num < 0:
+        negative_count += 1
+    count += 1
+print("Number of positive numbers entered:", positive_count)
+print("Number of negative numbers entered:", negative_count)
