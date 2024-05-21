@@ -1,0 +1,6 @@
+a = int(input("Enter the starting number (a): "))
+b = int(input("Enter the ending number (b): "))
+
+print("Numbers between", a, "and", b, "are:")
+for num in range(a+1, b):
+    print(num, end=" ")
