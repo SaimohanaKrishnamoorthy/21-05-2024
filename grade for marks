@@ -1,0 +1,14 @@
+s1,s2,s3=int(input()),int(input()),int(input())
+total=(s1+s2+s3)/3
+if total>=90:
+    print("Grade: A")
+elif total>=80 and total<90:
+    print("Grade: B")
+elif total>=70 and total<80:
+    print("Grade: C")
+elif total>=60 and total<70:
+    print("Grade: D")
+elif total>=50 and total<60:
+    print("Grade: E")
+else:
+    print("Grade: F")
