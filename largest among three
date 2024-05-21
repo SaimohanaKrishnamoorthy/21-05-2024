@@ -1,0 +1,7 @@
+ n1,n2,n3=int(input()),int(input()),int(input())
+if n1<n2 and n2>n3:
+    print(" greater: ",n2)
+elif n1<n3 and n3>n2:
+    print("greater: ",n3)
+else:
+    print("greater: ",n1)
