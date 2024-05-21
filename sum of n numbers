@@ -1,0 +1,7 @@
+n = int(input("Enter the number of elements: "))
+total = 0
+count = 1
+while count <= n:
+    total += float(input("Enter number " + str(count) + ": "))
+    count += 1
+print("Sum of the", n, "numbers is:", total)
